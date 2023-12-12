@@ -289,9 +289,11 @@ outline: none;
 
 }
 
+/* 
+media query for large devices */
 
-/*media query for large devices*/
-@media only screen and (min-width: 1025px) {
+
+@media only screen and (max-width: 1024px) {
 
 
     #form-box{
@@ -309,22 +311,27 @@ outline: none;
     }
 
     #fname{
-        width: 30%;
+        width: 40%;
+        margin-left: 0vw;
+        margin-right: 3vw;;
     }
     #lname{
-            width: 50%;
-            margin-left: 6vw;
+            width: 40%;
+          
+    }
+
+    #lname input{
+        padding-left: 10vw;
     }
 
    #gender{
     width:40%;
-
     padding-top: 1;
    }
 
    #dob{
-    width: 45%;
-    margin-left: 2vw;
+    width: 40%;
+    margin-left: 3vw;
    }
 
    #weight{
@@ -335,6 +342,7 @@ outline: none;
    #height{
     margin-bottom: 2vw;
     width: 40%;
+    margin-left: 1vw;
    }
 
     #activity{
@@ -352,6 +360,19 @@ outline: none;
     margin-left: 14rem;
     font-size: 0.8vw;
 }
+
+.input{
+    min-width: 24vw; 
+     height: 4vh;
+    border: 0.5px solid #ccc;
+    font-weight: 100;
+    margin-top: 0.5vw;
+   }
+
+   input{
+    border:none;
+}
+
 
 }
 
@@ -397,6 +418,7 @@ outline: none;
 
    #dob{
     width: 97%;
+    margin-left: 0vw;
    }
 
    #weight{
@@ -408,16 +430,17 @@ outline: none;
     margin-bottom: 2vw;
     width: 97.5%;
     padding-left: 2%;
+    margin-left: 0vw;
    }
 
     #activity{
         padding-top: 0%;
-     width: 98%;
+     width: 100%;
      padding-top: 0%;
     }
 
   #password{
-    width: 98%;
+    width: 100%;
   }
 
   /* #form-text{
