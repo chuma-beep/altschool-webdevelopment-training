@@ -14,59 +14,59 @@
 </head>
 <body>
 
+  <!-- main content-->
 <div id="main">
+<!-- intro and logo -->
     <div id="intro">
-        <img src="Assets/img/Logo (1).png">
-
+        <img src="Assets/img/Logo (1).png" alt="logo">
+        <article>
         <h1>For Individuals</h1>
+        <!--text-->
          <p id="intro-p">
             Start benefiting from the wellnness experience. For
             companies looking on increasing productivity, and improving
             organization wellness.
          </p>
-    </div>
+        </article> 
+   </div>
+   
 
-
+<!--form section-->
     <div id="form-box"> 
         <form action="/submit_application" method="post">
 
 
-       <div id="fname">
-        <label id="label" for="fname">First Name</label><br>
-        <input type="text"  class="input" name="fname" required>
-       </div>
-       <div id="lname">
-        <label id="label"  for="lname">Last Name</label><br>
-        <input type="text"  class="input"  name="lname" >
-       </div>
-
-        <div id="gender">
-        <label id="label"  for="gender">Gender</label><br>
-        <select  name="gender" class="input" required>
-          <option id="option" value="" disabled selected>Select your gender</option>
-          <option  id="option" value="male">Male</option>
-          <option id="option" value="female">Female</option>
-          <option id="option" value="other">Other</option>
-        </select>
-       </div>
-
-
-        <div id="dob">
+       <!-- <div id="fname">
+     <section>
+    
         <label id="label"  for="dob">Date of Birth</label><br>
         <input type="date"  class="input" name="dob" required>
-        </div>
+          </section>
+        </div> -->
+        <div id="fname">
+          <label id="label" for="fname">First Name</label><br>
+          <input type="text"  class="input" name="fname" required>
+         </div>
+         <div id="lname">
+          <label id="label"  for="lname">Last Name</label><br>
+          <input type="text"  class="input"  name="lname" >
+         </div>
 
 
           <!-- Weight Input -->
       <div id="weight" >
+        <section>
         <label id="label" for="weight">Weight(KG)</label><br>
        <input type="number" id="weight-box "  class="input" name="weight" placeholder="Enter Weight" required>
+       </section>
       </div>
 
         <div id="height">
+          <section>
         <label id="label" for="height">Height(CM)</label><br>
       <input type="number" id="height-box"  class="input"   name="height" placeholder="Enter Height here..." required>
       <br>
+      </section>
         </div>
 
       <div id="activity">

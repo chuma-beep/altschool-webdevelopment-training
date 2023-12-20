@@ -10,8 +10,6 @@ src: url('Assets/Brown-font/BrownLight Italic.ttf') format('truetype');
 font-weight: light;
 } */
 
-
-
   @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@100;500;900&display=swap');
 
 *{
@@ -159,7 +157,6 @@ outline: none;
        padding-left: 2vw;
 
 }
-
 
 
 #height{
