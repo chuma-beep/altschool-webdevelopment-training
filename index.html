@@ -35,6 +35,7 @@
     <div id="form-box"> 
         <form action="/submit_application" method="post">
 
+  
         <div id="fname">
           <label id="label" for="fname">First Name</label><br>
           <input type="text"  class="input" name="fname" required>
@@ -43,7 +44,25 @@
           <label id="label"  for="lname">Last Name</label><br>
           <input type="text"  class="input"  name="lname" >
          </div>
+<!--gender-->
+         <div id="gender">
+          <label id="label"  for="gender">Gender</label><br>
+          <select  name="gender" class="input" required>
+            <option id="option" value="" disabled selected>Select your gender</option>
+            <option  id="option" value="male">Male</option>
+            <option id="option" value="female">Female</option>
+            <option id="option" value="other">Other</option>
+          </select>
+         </div>
+  
 
+<!--date of birth-->
+<div id="dob">
+  <section>
+     <label id="label"  for="dob">Date of Birth</label><br>
+     <input type="date"  class="input" name="dob" required>
+       </section>
+     </div>
 
           <!-- Weight Input -->
       <div id="weight" >
