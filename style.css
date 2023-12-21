@@ -380,6 +380,7 @@ media query for large devices */
       margin-left: auto;
       margin-right: auto;
       margin-bottom: 50px;
+      height: 70vh;
     }
 
 
@@ -446,8 +447,124 @@ media query for large devices */
    }
 
    #form-text{
-    margin-left: 10vw;
+    margin-left: 22vw;
     font-size: 2vw;
+    margin-top: 100px;
+    width: 40vw;
+}
+  }
+
+
+
+  /* Media Query for tablets */
+@media (max-width: 768px) {
+
+    #main {
+        flex-direction: column; 
+      }
+    
+      #form-box {
+        margin-top: 20px;
+        width: 90%;
+         /* height:; */
+        max-width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 50px;
+        height: 65vh;
+      }
+
+
+      .input{
+        width: 100%;
+    }
+
+    #fname{
+        margin-top: 1.5vw;
+        width: 97%;
+    }
+    #lname{
+        width: 97%;
+        margin-top: 1.5vw;
+    }
+
+   #gender{
+    width:97%;
+   }
+
+   #dob{
+    width: 97%;
+    margin-left: 0vw;
+   }
+
+   #weight{
+     width: 97%;
+     margin-bottom: 2vw;
+     margin-top: 1.5vw;
+   }
+   
+   #height{
+    margin-bottom: 2vw;
+    width: 97.5%;
+    padding-left: 2%;
+    margin-left: 0vw;
+   }
+
+    #activity{
+        padding-top: 0%;
+     width: 100%;
+     padding-top: 0%;
+    }
+
+  #password{
+    width: 100%;
+  }
+
+  /* #form-text{
+    margin-top: 35vw;
+  } */
+
+ .input{
+    min-width: 17vw; 
+    height: 4vh;
+    border: 1px solid #ccc;
+    font-weight: 100;
+    margin-top: 0.8vw;
+   }
+
+   #form-text{
+    text-align: center;
+    margin-left: 22vw;
+    font-size: 2vw;
+    margin-top: 70px;
+    width: 40vw;
 }
 
-  }
+}
+
+/*for smaller screens*/
+
+@media (max-width: 425px) {
+  
+    #form-box {
+        margin-top: 20px;
+        width: 90%;
+    
+        max-width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 50px;
+        height: 60vh;
+      }
+
+      #form-text{
+        text-align: center;
+        margin-left: 9vw;
+        font-size: 3.5vw;
+        margin-top: 70px;
+        width: 71vw;
+    }
+
+
+
+}
