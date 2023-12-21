@@ -157,8 +157,8 @@ outline: none;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 95%;
-    padding-left: 2.5vw;
+    width: 97%;
+    padding-left: 2vw;
 }
 
 select{
@@ -179,8 +179,8 @@ select{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 95%;
-    padding-left: 2.5vw;
+    width: 98%;
+    padding-left: 2vw;
 }
 
 .password{
@@ -213,73 +213,6 @@ select{
 
 
 /*media query for extrta large devices*/
-@media only screen and (min-width: 1500px) {
-
-
-    #form-box{
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        margin-top: 20px;
-        width: 100%;
-        max-width:1000px;
-        height: 800px;
-        margin-right:auto;
-        margin-left: auto;
-        box-shadow: 0px 4px 50px 0px rgba(4, 8, 19, 0.1);
-    }
-
-    #fname{
-        width: 30%;
-    }
-    #lname{
-            width: 40%;
-            margin-left: 7vw;
-    }
-
-   #gender{
-    width:40%;
-
-    padding-top: 1;
-   }
-
-   #dob{
-    width: 40%;
-    margin-left: 2vw;
-   }
-
-   #weight{
-     width: 40%;
-     margin-bottom: 2vw;
-   }
-   
-   #height{
-    margin-bottom: 2vw;
-    width: 40%;
-   }
-
-    #activity{
-        padding-top: 0%;
-     width: 98%;
-     padding-top: 0%;
-    }
-
-  #password{
-    width: 98%;
-  }
-
-
-  #form-text{
-    margin-left: 14rem;
-    font-size: 0.8vw;
-}
-
-
-}
-
-/* 
-media query for large devices */
 
 
 @media only screen and (max-width: 1024px) {
