@@ -1,15 +1,3 @@
- /* @font-face { 
-        font-family: 'Brown';
-    src: url('Assets/Brown-font/Brown Bold.ttf') format('truetype'); 
-    font-weight: bold;
-   }
-
-   @font-face { 
-    font-family: 'Brown';
-src: url('Assets/Brown-font/BrownLight Italic.ttf') format('truetype'); 
-font-weight: light;
-} */
-
   @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@100;500;900&display=swap');
 
 *{
@@ -19,7 +7,7 @@ font-weight: light;
  html, body{
     margin:0;
     padding: 0;
-   background-color: #FFFFFF;
+    background-color: #f7fdfc;
    font-family: 'Montserrat', sans-serif;
 font-family: 'Roboto', sans-serif;
 }
@@ -65,10 +53,6 @@ input, select, option{
     font-family: 'Roboto', sans-serif;
     font-weight: 100;
 }
-
-/* input, select, option:hover{
-
-} */
 
 #form-box{
     display: flex;
@@ -123,6 +107,7 @@ height: 7.2%;
     border: 0.5px solid #ccc;
     font-weight: 100;
     margin-top: 0.5vw;
+    border-radius: 3px;
    }
 
    input{
@@ -176,6 +161,13 @@ outline: none;
     padding-left: 2.5vw;
 }
 
+select{
+    border-radius: 3px;;
+}
+
+.password{
+    border-radius: 3px;
+}
 .activityinput{
     width: 95%;
     height: 4vh;
@@ -243,7 +235,7 @@ outline: none;
     }
     #lname{
             width: 40%;
-            margin-left: 6vw;
+            margin-left: 7vw;
     }
 
    #gender{
